@@ -1,0 +1,73 @@
+*{
+    scroll-behavior: smooth;
+   }
+   .btn-common{
+       background: #B68C5A;
+       color: #FFFFFF;
+       padding: 18px 30px;
+       font-weight: 600;
+       font-size: 18px;
+   }
+   h1,h2,h3,h4,h5,h6{
+       font-family: 'EB Garamond', serif;
+   }
+   p{
+       font-family: 'Poppins', sans-serif;
+   }
+   .heading{
+       color: #414040;
+   }
+   .describe{
+       color: #707070;
+   }
+   /* banner section */
+   .banner-image{
+       max-height: 510px; 
+       filter: blur(2px);
+       border-radius: 8px;   
+   }
+   .banner-font{
+       font-weight:800;
+       font-size: 4rem;
+   }
+   /* legal practice section */
+   .card-background{
+       background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+   }
+   .bootom-border{
+       border-bottom: 1px solid #E7E7E7;  
+   }
+   .full-border{
+       border: 1px solid #E7E7E7;
+   }
+   /* legal, client image */
+   .image, .clients, .footer-send-icon{
+       width: 71.8px;
+       height: 72.34px;
+   }
+   /* accordion button */
+   .accordion .accordion-item{
+       background-color:  #F3F3F3;
+   }
+   /* frequently asked question */
+   .accordion-button::after {	
+       background-image: url("../images/plus.png");    
+   }
+   .accordion-button:not(.collapsed)::after {
+       background-image: url("../images/minus-sign.png");
+   }
+   /* contact section */
+   .contact{
+       background-color:  #F3F3F3;
+   }
+   .contact-logo{
+       width:40px;
+       height: 40px;
+   }
+   /* footer */
+   .footer-send-icon{
+      background-color: #B68C5A;
+   }
+   .footer-describe{
+       color: #CFCFCF;
+   }

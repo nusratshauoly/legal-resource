@@ -16,39 +16,39 @@
         <!-- css link -->
             <link rel="stylesheet" href="./styles/style.css">
     </head>
-    <body class="container-lg">
+    <body>
         <!-- header -->
         <header>
-            <nav class="navbar navbar-expand-lg mt-4">
+            <nav class="container navbar navbar-expand-lg mt-4">
                 <div class="container-fluid position-sticky">
-                  <a class="navbar-brand" href="#"><img src="./images/logo2.png" alt=""></a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                      <li class="nav-item px-3">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item px-3">
-                        <a class="nav-link" href="#">Services <i class="fa-solid fa-angle-right d-none d-lg-inline"></i></a>
-                      </li>
-                      <li class="nav-item px-3">
-                        <a class="nav-link" href="#">Cases <i class="fa-solid fa-angle-right d-none d-lg-inline"></i></a>
-                      </li>
-                      <li class="nav-item px-3">
-                        <a class="nav-link" href="#">Blog <i class="fa-solid fa-angle-right d-none d-lg-inline"></i></a>
-                      </li>
-                      <li class="nav-item px-3">
-                        <a class="nav-link" href="#">Contact Us <i class="fa-solid fa-angle-right d-none d-lg-inline"></i></a>
-                      </li>  
-                    </ul>
-                <!-- modal button-->
-                    <button type="button" class="btn btn-common" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        Free Consultation
+                    <a class="navbar-brand" href="#"><img src="./images/logo2.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
                     </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li class="nav-item px-3">
+                                <a class="nav-link" aria-current="page" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item px-3">
+                                <a class="nav-link" href="#services">Services <i class="fa-solid fa-angle-right d-none d-lg-inline"></i></a>
+                            </li>
+                            <li class="nav-item px-3">
+                                <a class="nav-link" href="#cases">Cases <i class="fa-solid fa-angle-right d-none d-lg-inline"></i></a>
+                            </li>
+                            <li class="nav-item px-3">
+                                <a class="nav-link" href="#blog">Blog <i class="fa-solid fa-angle-right d-none d-lg-inline"></i></a>
+                            </li>
+                            <li class="nav-item px-3">
+                                <a class="nav-link" href="#contact">Contact Us <i class="fa-solid fa-angle-right d-none d-lg-inline"></i></a>
+                            </li>  
+                        </ul>
+                    <!-- modal button-->
+                        <button type="button" class="btn btn-common" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Free Consultation
+                        </button>
                     <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -63,13 +63,13 @@
                                 </div>
                             </div>
                         </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
             </nav>
 
             <!-- banner -->
-            <section class="container my-5">
+            <section class="container my-5" id="home">
                 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="true">
                     <div class="carousel-inner">
                     <!-- first carousel -->
@@ -127,7 +127,7 @@
         <!-- main -->
         <main>
             <!-- legal practice area -->
-            <section class="container my-3">
+            <section class="container my-3" id="services">
                 <div class="py-3 text-center">
                     <h3 class="fs-1 fw-semibold heading py-2">The Legal Practice Area</h3>
                     <p class="describe">There are many variations of passages of Lorem Ipsum available, but the majority <br> have suffered alteration in some form, by injected humour.</p>
@@ -146,7 +146,6 @@
                             </div>
                       </div>
                     </div>
-                    
                     <!-- card 2 -->
                     <div class="col">
                         <div class="card h-100 card-background rounded-0 p-4 full-border">
@@ -158,7 +157,6 @@
                         </div>
                       </div>
                     </div>
-                   
                     <!-- card 3 -->
                     <div class="col">
                       <div class="card h-100 border-0 rounded-0 border-bottom p-4">
@@ -170,7 +168,6 @@
                             </div>
                       </div>
                     </div>
-                    
                     <!-- card 4 -->
                     <div class="col">
                       <div class="card h-100 border-0 rounded-0 p-4">
@@ -182,7 +179,6 @@
                             </div>
                       </div>
                     </div>
-                   
                     <!-- card 5 -->
                     <div class="col">
                         <div class="card h-100 rounded-0 full-border p-4">
@@ -193,10 +189,9 @@
                             <img src="./images/Frame.png" alt="">
                             </div>
                         </div>
-                      </div>
-                     
-                      <!-- card 6 -->
-                      <div class="col">
+                    </div>
+                    <!-- card 6 -->
+                    <div class="col">
                         <div class="card h-100 border-0 rounded-0 p-4">
                             <img src="./images/tax.png" class="card-img-top w-25 text-center mx-auto mt-3 image" alt="...">
                             <div class="card-body">
@@ -205,12 +200,12 @@
                             <img src="./images/Frame.png" alt="">
                           </div>
                         </div>
-                      </div>
-                  </div>
+                    </div>
+                </div>
             </section>
 
             <!-- What our client say area -->
-            <section class="container my-5">
+            <section class="container my-5" id="cases">
                 <div class="py-5 text-center">
                     <h3 class="fs-1 fw-semibold heading">What Our Client Say</h3>
                     <p class="describe">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
@@ -261,7 +256,7 @@
             </section>
 
             <!-- frequently asked question -->
-            <section class="container">
+            <section class="container" id="blog">
                 <div class="py-5 text-center">
                     <h3 class="fs-1 fw-semibold heading py-2">Frequently Asked Any Questions</h3>
                     <p class="describe">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
@@ -343,149 +338,131 @@
                 </div>
             </section>
 
-            <!-- Contact with us section -->
-            <section class="container my-5">
+            <!-- contact section -->
+            <section class="container my-5" id="contact">
                 <div class="py-5 text-center">
                     <h3 class="fs-1 fw-semibold heading py-2">Contact With Us</h3>
                     <p class="describe">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
                 </div>
-
+    
                 <div class="row row-cols-1 row-cols-md-2 g-4 p-2">
-                <!-- contact half section -->
-                <div class="row row-cols-1 row-cols-md-2 text-center column-gap-0 g-0">
-                    <div class="col">
-                      <div class="card p-4 rounded-0">
-                        <img src="./images/location.png" class="card-img-top contact-logo mx-auto" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title heading">Address</h5>
-                          <p class="card-text describe">A108 Adam Street,<br> New York, NY 535022</a> </p>
+                <!-- Address section -->
+                    <div class="row row-cols-1 row-cols-md-2 text-center column-gap-0 g-0 mt-4 mb-1">
+                        <div class="col">
+                            <div class="card p-3 py-md-4 rounded-0 contact full-border">
+                                <img src="./images/location.png" class="card-img-top contact-logo mx-auto" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title heading">Address</h5>
+                                <p class="card-text describe">A108 Adam Street,<br> New York, NY 535022</a> </p>
+                                </div>
+                            </div>
                         </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card p-4 rounded-0">
-                        <img src="./images/call.png" class="card-img-top mx-auto contact-logo" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title heading">Call Us</h5>
-                            <a href="tel:+88 01750 00 00 00" class="describe text-decoration-none">+88 01750 00 00 00</a>
-                            <br>
-                            <a href="tel:+88 01750 00 00 00" class="describe text-decoration-none">+88 01750 00 00 00</a>
+                        <div class="col">
+                            <div class="card p-3 py-md-4 rounded-0 contact full-border">
+                                <img src="./images/call.png" class="card-img-top mx-auto contact-logo" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title heading">Call Us</h5>
+                                    <a href="tel:+88 01750 00 00 00" class="describe text-decoration-none">+88 01750 00 00 00</a>
+                                    <br>
+                                    <a href="tel:+88 01750 00 00 00" class="describe text-decoration-none">+88 01750 00 00 00</a>
+                                </div>
+                            </div>
                         </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card p-4 rounded-0">
-                        <img src="./images/email.png" class="card-img-top mx-auto contact-logo" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title heading">Email Us</h5>
-                          <a href="info@gmail.com" class="describe text-decoration-none">info@gmail.com</a>
-                          <br>
-                          <a href="info@gmail.com" class="describe text-decoration-none">info@gmail.com</a>
+                        <div class="col">
+                            <div class="card p-3 py-md-4 rounded-0 contact full-border">
+                                <img src="./images/email.png" class="card-img-top mx-auto contact-logo" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title heading">Email Us</h5>
+                                    <a href="info@gmail.com" class="describe text-decoration-none">info@gmail.com</a>
+                                    <br>
+                                    <a href="info@gmail.com" class="describe text-decoration-none">info@gmail.com</a>
+                                </div>
+                            </div>
                         </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card p-4 rounded-0">
-                        <img src="./images/time.png" class="card-img-top contact-logo mx-auto" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title heading">Card title</h5>
-                          <p class="card-text describe">
-                          Mon-Fri: 9AM to 5PM 
-                          <br>
-                          Sunday: 9AM to 1 PM
-                          </p>
+                        <div class="col">
+                            <div class="card p-3 py-md-4 rounded-0 contact full-border">
+                                <img src="./images/time.png" class="card-img-top contact-logo mx-auto" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title heading">Card title</h5>
+                                    <p class="card-text describe">
+                                    Mon-Fri: 9AM to 5PM 
+                                    <br>
+                                    Sunday: 9AM to 1 PM
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                      </div>
                     </div>
-                  </div>
-                   
-                <!-- second half -->
-                    <div class="col">
                        
+                <!-- Form section -->
+                    <div class="col">
+                        <form class="h-50">
+                            <div>
+                                <input type="text" class="form-control contact py-3 mb-3" id="exampleInputText1" aria-describedby="emailHelp" placeholder="Your Name">  
+                            </div>
+                            <div>
+                                <input type="email" class="form-control contact py-3 mb-3" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Email">
+                            </div>
+                            <div>
+                                <input type="text" class="form-control contact py-3 mb-3" id="exampleInputSearch1" placeholder="Subject" aria-describedby="emailHelp">
+                            </div>
+                            <div>
+                                <textarea class="form-control contact mb-3" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                            </div>
+                            <div>
+                                <button type="submit" class="btn btn-common form-control">Send Message</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
-            </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-           
+            </section>   
         </main>
 
-        
         <!-- footer -->
-        <footer class="bd-footer py-4 py-md-5 mt-5 bg-body-tertiary">
-            <div class="container py-4 py-md-5 px-4 px-md-3 text-body-secondary">
-              <div class="row">
-                <div class="col-lg-3 mb-3">
-                  <a class="d-inline-flex align-items-center mb-2 text-body-secondary text-decoration-none" href="/" aria-label="Bootstrap">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="d-block me-2" viewBox="0 0 118 94" role="img"><title>Bootstrap</title><path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"></path></svg>
-                    <span class="fs-5">Bootstrap</span>
-                  </a>
-                  <ul class="list-unstyled small">
-                    <li class="mb-2">Designed and built with all the love in the world by the <a href="https://getbootstrap.com/docs/5.3/about/team/">Bootstrap team</a> with the help of <a href="https://github.com/twbs/bootstrap/graphs/contributors">our contributors</a>.</li>
-                    <li class="mb-2">Code licensed <a href="https://github.com/twbs/bootstrap/blob/main/LICENSE" target="_blank" rel="license noopener">MIT</a>, docs <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="license noopener">CC BY 3.0</a>.</li>
-                  </ul>
+        <footer class="container-fluid bd-footer py-5 py-md-5 mt-5 bg-dark">
+            <div class="container py-4 py-md-5 px-4 px-md-3 text-white">
+                <div class="row">
+                    <div class="col-6 col-lg-3 mb-3">
+                        <img src="./images/logo.png" class="w-50 h-25 pb-3" alt="">
+                        <p class="pb-4 footer-describe">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    </div>
+                    <div class="col-6 col-lg-3 mb-4">
+                        <h5 class="pb-3">Useful Link</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><a href="#home" class="text-decoration-none footer-describe">Home</a></li>
+                            <li class="mb-2"><a href="#services" class="text-decoration-none footer-describe">About Us</a></li>
+                            <li class="mb-2"><a href="#cases" class="text-decoration-none footer-describe">Cases</a></li>
+                            <li class="mb-2"><a href="#blog" class="text-decoration-none footer-describe">Blog</a></li>
+                            <li class="mb-2"><a href="#contact" class="text-decoration-none footer-describe">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-lg-3 mb-3">
+                        <h5 class="pb-3">Contact Now</h5>
+                        <ul class="list-unstyled">
+                        <p class="mb-2 footer-describe">555 4th 5t NW, Washington<br>DC 20530, United States</p>
+                        <li class="mb-2" >
+                            <a href="tel:+88 01750 00 00 00" class="text-decoration-none footer-describe">+88 01750 00 00 00</a>
+                            <br>
+                            <a href="tel:+88 01750 00 00 00" class="text-decoration-none footer-describe">+88 01750 00 00 00</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="info@gmail.com" class="footer-describe text-decoration-none">info@gmail.com</a>
+                            <br>
+                            <a href="info@gmail.com" class="footer-describe text-decoration-none">info@gmail.com</a>
+                        </li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-lg-3 mb-3">
+                        <h5 class="pb-3">Subscribe</h5>
+                        <p class="footer-describe">Subscribe for our latest & <br>Articles. We Won't give You<br>Spam Mails</p>
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control d-inline-block" aria-describedby="emailHelp" placeholder="Your Email">
+                            <img src="./images/send.png" class="footer-send-icon p-4 rounded-1" alt="">
+                        </div>
+                    </div>
                 </div>
-                <div class="col-6 col-lg-2 offset-lg-1 mb-3">
-                  <h5>Links</h5>
-                  <ul class="list-unstyled">
-                    <li class="mb-2"><a href="https://getbootstrap.com/">Home</a></li>
-                    <li class="mb-2"><a href="https://getbootstrap.com/docs/5.3/">Docs</a></li>
-                    <li class="mb-2"><a href="https://getbootstrap.com/docs/5.3/examples/">Examples</a></li>
-                    <li class="mb-2"><a href="https://icons.getbootstrap.com/">Icons</a></li>
-                    <li class="mb-2"><a href="https://themes.getbootstrap.com/">Themes</a></li>
-                    <li class="mb-2"><a href="https://blog.getbootstrap.com/">Blog</a></li>
-                    <li class="mb-2"><a href="https://cottonbureau.com/people/bootstrap">Swag Store</a></li>
-                  </ul>
-                </div>
-                <div class="col-6 col-lg-2 mb-3">
-                  <h5>Guides</h5>
-                  <ul class="list-unstyled">
-                    <li class="mb-2"><a href="https://getbootstrap.com/docs/5.3/getting-started/">Getting started</a></li>
-                    <li class="mb-2"><a href="https://getbootstrap.com/docs/5.3/examples/starter-template/">Starter template</a></li>
-                    <li class="mb-2"><a href="https://getbootstrap.com/docs/5.3/getting-started/webpack/">Webpack</a></li>
-                    <li class="mb-2"><a href="https://getbootstrap.com/docs/5.3/getting-started/parcel/">Parcel</a></li>
-                    <li class="mb-2"><a href="https://getbootstrap.com/docs/5.3/getting-started/vite/">Vite</a></li>
-                  </ul>
-                </div>
-                <div class="col-6 col-lg-2 mb-3">
-                  <h5>Projects</h5>
-                  <ul class="list-unstyled">
-                    <li class="mb-2"><a href="https://github.com/twbs/bootstrap">Bootstrap 5</a></li>
-                    <li class="mb-2"><a href="https://github.com/twbs/bootstrap/tree/v4-dev">Bootstrap 4</a></li>
-                    <li class="mb-2"><a href="https://github.com/twbs/icons">Icons</a></li>
-                    <li class="mb-2"><a href="https://github.com/twbs/rfs">RFS</a></li>
-                    <li class="mb-2"><a href="https://github.com/twbs/bootstrap-npm-starter">npm starter</a></li>
-                  </ul>
-                </div>
-                <div class="col-6 col-lg-2 mb-3">
-                  <h5>Community</h5>
-                  <ul class="list-unstyled">
-                    <li class="mb-2"><a href="https://github.com/twbs/bootstrap/issues">Issues</a></li>
-                    <li class="mb-2"><a href="https://github.com/twbs/bootstrap/discussions">Discussions</a></li>
-                    <li class="mb-2"><a href="https://github.com/sponsors/twbs">Corporate sponsors</a></li>
-                    <li class="mb-2"><a href="https://opencollective.com/bootstrap">Open Collective</a></li>
-                    <li class="mb-2"><a href="https://stackoverflow.com/questions/tagged/bootstrap-5">Stack Overflow</a></li>
-                  </ul>
-                </div>
-              </div>
             </div>
           </footer>
-
-
-
         <!-- JS bootstrap link -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
     </body>
